@@ -39,4 +39,4 @@ jupyter notebook pipeline.ipynb
 | `requirements.txt` | Packages and versions used |
 | `experiments/` | Scripts behind the paper's experiments, analyses and figures (see its README) |
 
-Data: MAGFiLO, Kaggle 2026 edition (CC BY 4.0). The code was written with the help of an AI assistant (Claude); all experiments were run and checked by the author.
+Data: MAGFiLO, Kaggle 2026 edition (CC BY-NC 4.0; not included in this repository). The code was written with the help of an AI assistant (Claude); all experiments were run and checked by the author.
