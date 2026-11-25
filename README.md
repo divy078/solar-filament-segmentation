@@ -37,5 +37,6 @@ jupyter notebook pipeline.ipynb
 | `data/folds_photos.csv` | The fixed 5-fold split of the training photos |
 | `submission/ens10b18_r40.csv` | The exact file submitted to Kaggle |
 | `requirements.txt` | Packages and versions used |
+| `experiments/` | Scripts behind the paper's experiments, analyses and figures (see its README) |
 
 Data: MAGFiLO, Kaggle 2026 edition (CC BY 4.0). The code was written with the help of an AI assistant (Claude); all experiments were run and checked by the author.
