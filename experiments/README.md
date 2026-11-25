@@ -5,8 +5,9 @@ Screening experiments ran on a laptop (one fold); the final models were trained 
 
 - `config.py` sets the folder paths; edit them to match where you keep the competition data and the run outputs.
 - `common.py` holds the shared code: data loading, the fixed fold split, blob extraction and Panoptic Quality counting.
-- `figs.py` draws Figures 1 and 2. `paper_extras.py` draws Figure 3 and computes the final error analysis,
-  the time-proximity analysis and the pixel Dice values.
+- `figs.py` draws Figures 1 and 3. `paper_extras.py` draws Figure 6 and computes the final error analysis,
+  the time-proximity analysis and the pixel Dice values. `paper_figs2.py` computes the numbers behind
+  Figures 2, 4 and 5, and `paper_figs3.py` draws them.
 - Most scripts read the saved out-of-fold probability maps of the trained models. These are too large for this
   repository; they can be recreated by training the models with the scripts in `../src/`.
 
